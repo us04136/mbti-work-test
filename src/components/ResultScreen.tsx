@@ -16,7 +16,7 @@ const ResultScreen: React.FC<ResultScreenProps> = ({ mbti, onReset }) => {
   return (
     <div className="flex flex-col items-center py-12 px-4 max-w-3xl mx-auto w-full animate-in fade-in duration-700">
       {/* Ad Placeholder Top */}
-      <AdSenseComponent slot="1485514936" />
+      <AdSenseComponent />
 
       <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 w-full border-t-8 border-[#F3E8FF] text-center mb-8">
         <div className="inline-block px-4 py-1 bg-purple-100 text-purple-600 rounded-full font-bold text-sm mb-4">
@@ -98,7 +98,7 @@ const ResultScreen: React.FC<ResultScreenProps> = ({ mbti, onReset }) => {
       </div>
 
        {/* Ad Placeholder Bottom */}
-       <AdSenseComponent slot="1485514936" />
+       <AdSenseComponent />
     </div>
   );
 };
