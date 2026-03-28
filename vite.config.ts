@@ -8,5 +8,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/mbti-work-test/',
+  // Vercel 환경에서는 루트('/')를 사용하고, GitHub Pages 등에서는 서브경로를 사용합니다.
+  base: process.env.VERCEL ? '/' : '/mbti-work-test/',
 })
