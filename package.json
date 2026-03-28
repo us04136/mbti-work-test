@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://us04135.github.io/mbti-work-test/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -33,6 +34,6 @@
     "tailwindcss": "^4.2.2",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.57.0",
-    "vite": "^8.0.1"
+    "vite": "^6.0.0"
   }
 }
