@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://us04135.github.io/mbti-work-test/",
+  "homepage": "https://us04136.github.io/mbti-work-test/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
