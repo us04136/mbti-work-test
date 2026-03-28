@@ -1,6 +1,7 @@
 import React from 'react';
 import { results } from '../data/results';
 import { Share2, RotateCcw, ThumbsUp, ThumbsDown } from 'lucide-react';
+import AdSenseComponent from './AdSenseComponent';
 
 interface ResultScreenProps {
   mbti: string;
@@ -15,9 +16,7 @@ const ResultScreen: React.FC<ResultScreenProps> = ({ mbti, onReset }) => {
   return (
     <div className="flex flex-col items-center py-12 px-4 max-w-3xl mx-auto w-full animate-in fade-in duration-700">
       {/* Ad Placeholder Top */}
-      <div className="w-full h-32 bg-slate-200 border-2 border-dashed border-slate-300 rounded-xl mb-10 flex items-center justify-center text-slate-400 font-bold text-sm">
-        광고가 들어갈 영역 (상단)
-      </div>
+      <AdSenseComponent slot="1485514936" />
 
       <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 w-full border-t-8 border-[#F3E8FF] text-center mb-8">
         <div className="inline-block px-4 py-1 bg-purple-100 text-purple-600 rounded-full font-bold text-sm mb-4">
@@ -99,9 +98,7 @@ const ResultScreen: React.FC<ResultScreenProps> = ({ mbti, onReset }) => {
       </div>
 
        {/* Ad Placeholder Bottom */}
-       <div className="w-full h-48 bg-slate-200 border-2 border-dashed border-slate-300 rounded-xl mb-10 flex items-center justify-center text-slate-400 font-bold text-sm">
-        광고가 들어갈 영역 (하단 - 전면 광고급)
-      </div>
+       <AdSenseComponent slot="1485514936" />
     </div>
   );
 };
